@@ -1,0 +1,70 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: -2%;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transform: translate(0, -85%);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu button {
+  margin-bottom: 15px;
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}
+
+#backgammon {
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  transform: translate(0, -45%);
+}
+#chat {
+  transform: translate(0, -80%);
+}
+#logout {
+  transform: translate(0, -85%);
+}

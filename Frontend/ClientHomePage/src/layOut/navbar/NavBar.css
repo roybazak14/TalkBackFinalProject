@@ -1,0 +1,27 @@
+#back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px; /* Adjust as needed */
+  margin-left: 10px; /* Adjust as needed */
+}
+
+#user {
+  margin-left: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -2%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#log {
+  margin-left: auto;
+}
+
+.user-actions {
+  position: absolute;
+  top: 0;
+  right: auto;
+  margin-top: 10px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+}

@@ -1,0 +1,51 @@
+.container {
+  max-width: 100px;
+  border-radius: 0%;
+  /* background-color: #ebebeb; */
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+  text-align: center;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Increase letter spacing for emphasis */
+  font-weight: bold; /* Bold text */
+}
+
+.secondary-title {
+  font-size: 1.5rem;
+  color: #aaa; /* Light gray */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-title {
+  font-size: 24px;
+  color: #fff; /* White text */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-title {
+  font-size: 20px;
+  color: #aaa; /* Light gray */
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#register {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #fff; /* White text */
+}

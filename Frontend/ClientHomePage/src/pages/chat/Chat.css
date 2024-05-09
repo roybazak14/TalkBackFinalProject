@@ -1,0 +1,84 @@
+/* Chat.css */
+
+.web-chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-window {
+  flex: 1;
+  overflow-y: auto; /* Show vertical scrollbar when needed */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  padding: 10px;
+  border: 2px solid #007bff; /* Set border color to blue */
+  border-radius: 10px; /* Add border radius */
+  margin-bottom: 10px;
+  background-color: #f0f0f0; /* Change background color */
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.my-message {
+  text-align: right;
+}
+
+.my-message .message-bubble {
+  background-color: lightgreen; /* Light green for messages sent by current user */
+}
+
+.other-message {
+  text-align: left;
+}
+
+.other-message .message-bubble {
+  background-color: lightgray; /* Light gray for messages received by current user */
+}
+
+.message-bubble {
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+}
+
+.message-form input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.message-form button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.notification {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
