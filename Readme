@@ -1,0 +1,10 @@
+Hi, Im Roy,
+My project name is TalkBack, that is a combined Backgammon game with an online chat.
+# Clone the repository
+git clone https://github.com/roybazak14/TalkBackFinalProject.git
+
+# Navigate into the project directory
+cd TalkBackFinalProject.git
+
+# Install dependencies
+npm install
